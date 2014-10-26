@@ -1,0 +1,16 @@
+                         _,.,.__,--.__,-----.
+    Have a Tapir       ,""   '))              `.
+         Day! \      ,'   e                    ))
+               ^--  (  .='__,                  ,
+                    `~`     `-\  /._____,/   /
+                             | | )    (  (   ;
+                             | | |    / / / / 
+                     vvVVvvVvVVVvvVVVvvVVvVvvvVvPhSv 
+============================================================
+Welcome to <%= node[:fqdn] %> running <%= node[:platform].capitalize %>.
+
+Your server is being tenderly cared for thanks to Chef
+version <%= node[:chef_packages][:chef][:version] %>.
+
+Enjoy yourself, and use all <%= node[:memory][:total] %> of your RAM.
+============================================================

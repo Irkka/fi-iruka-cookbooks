@@ -6,3 +6,4 @@ description      'Installs/Configures utilities'
 long_description 'Installs/Configures utilities'
 version          '0.1.0'
 
+depends 'pacman', '~> 1.1.1'
